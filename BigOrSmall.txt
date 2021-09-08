@@ -1,0 +1,18 @@
+# -*- coding: utf-8 -*-
+
+sayi1 = int(input("please enter first number: "))
+sayi2 = int(input("please enter second number: "))
+sayi3 = int(input("please enter third number: "))
+
+
+
+if (sayi2 >= sayi1) and (sayi2 >= sayi3):
+    biggestnumber = sayi2
+elif (sayi3 >= sayi1) and (sayi3 >= sayi2):
+    biggestnumber = sayi3
+else:
+    biggestnumber = sayi1
+    
+print(biggestnumber)
+
+
